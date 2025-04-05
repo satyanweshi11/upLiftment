@@ -1,0 +1,54 @@
+body {
+    background-color: #eef2f5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .lift-panel {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .brand {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #2c3e50;
+  }
+  
+  .current-floor {
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+  .floor-btn {
+    margin: 5px;
+    min-width: 60px;
+  }
+  
+  #closeDoorBtn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .lift-status {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #3498db;
+    transition: all 0.3s ease;
+  }
+  
+  .lift-moving {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+  }
+  
